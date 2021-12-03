@@ -1,0 +1,223 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1000px;
+    margin:0 auto;
+
+}
+
+.uhu{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.poisk::before{
+    background: url(/poisk.png);
+    content: '';
+    width: 17px;
+    height: 17px;
+    display: block;
+    transform: translate(-20px,17px);
+    
+    
+}
+
+nav ul a{
+    text-decoration: none;
+}
+
+.poisk input{
+    max-width: 100px;
+    margin-right: 0;
+    border: none;
+    
+}
+
+.geg{
+    background: wheat;
+
+    border: black solid 2px;
+}
+
+.geg h1{
+    padding-top: 131px;
+    margin-bottom: 19px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 73px;
+
+    color: #000000;
+}
+
+.geg p{
+    font-family: Inter;
+    padding-bottom: 1px;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 36px;
+color: wheat;
+}
+
+.geg img{
+    transform: translate(500px, -200px);
+}
+
+.gig{
+    line-height: 10px;
+    padding-top: 19px;
+    background: wheat;
+    border: black solid 2px;
+    padding-right: 500px;
+    padding-left: 438px;
+  
+}
+
+.gig h2{
+    font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 36px;
+color: #2D3748;
+}
+
+.gig p{
+    font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 17px;
+
+color: black;
+}
+
+.gig img{
+    transform: translate(500px, -100px);
+}
+
+.kuka{
+    margin: auto 0;
+    max-width: 500px;
+}
+
+.gogi__flex{
+    background-color: wheat;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+ .gog1{
+    background: wheat;
+ box-shadow: 0px 4px 4px wheat;
+ border-radius: 5px;
+ max-width: 320px;
+ }
+
+ .gag{
+    background: wheat;
+
+    border: black solid 2px;
+}
+
+.gag h4{
+    padding-bottom: 24px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    
+    color: #000000;
+}
+
+.gag p{
+    padding-top: 18px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 17px;
+    
+    color: black;
+}
+
+.gag img{
+    transform: translate(454px, -107px);
+}
+
+.fufa{
+    margin: auto 0;
+    max-width: 400px;
+}
+
+p.hjhj{
+    transform: translate(313px, -36px);
+    font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+}
+
+.fufu{
+    margin: auto 0;
+    max-width: 150px;
+}
+
+.fufi{
+    transform: translate(224px, -19px);
+    font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+}
+
+.aga{
+    padding-top: 20px;
+    padding-left: 410px;
+    transform: translate(224px, -19px);
+    display: flex;
+}
+
+header{
+    background: gray;
+}
+
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    .geg h1 {
+        font-size: 10px;
+        width: 30px;
+        height: 30px;
+    }
+ }
+
+@media all and (min-width: 480px) and (max-width: 768px) { }
+
+@media all and (max-width: 480px) { 
+    
+}
+
+
+
+
+
